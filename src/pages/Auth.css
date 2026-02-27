@@ -1,0 +1,165 @@
+/* Page Background */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7f6;
+}
+
+/* Card */
+.auth-card {
+  background: white;
+  padding: 40px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.auth-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Labels */
+.auth-card label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Show password */
+.show-pass {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+/* Button */
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1b9e3e; /* Food Rescue green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background: #147a2f;
+}
+
+/* Links */
+.auth-links {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.create-link {
+  color: #1b9e3e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-link:hover {
+  text-decoration: underline;
+}
+
+.forgot {
+  color: #555;
+  margin-bottom: 8px;
+}
+/* ===== REGISTER MODERN STYLE ===== */
+
+.register-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #4f9161,
+    #babcba
+  );
+}
+
+.modern-card {
+  width: 400px;
+  padding: 40px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.gradient-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #4facfe, #43e97b);
+  transition: 0.3s;
+}
+
+.gradient-btn:hover {
+  transform: scale(1.03);
+}
+
+.login-text {
+  margin-top: 15px;
+}
+
+.login-text span {
+  color: #2e8b57;
+  font-weight: bold;
+  cursor: pointer;
+}
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #2e7d32;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+/* ===== ERROR MESSAGE ===== */
+
+.error-msg {
+  color: #d32f2f;
+  background: #fdecea;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+}
