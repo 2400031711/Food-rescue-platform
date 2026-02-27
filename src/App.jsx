@@ -15,7 +15,7 @@ import RecipientDashboard from "./pages/dashboard/RecipientDashboard";
 import AnalystDashboard from "./pages/dashboard/AnalystDashboard";
 
 import AnalystProfile from "./pages/dashboard/AnalystProfile";
-
+import AdminDashboard from "./pages/dashboard/AdminDashboard";
 
 <Route
   path="/analyst-dashboard"
@@ -28,7 +28,7 @@ import MyDonations from "./pages/dashboard/MyDonations";
 import Profile from "./pages/dashboard/Profile";
 import Notifications from "./pages/Notifications";
 import Security from "./pages/security";
-import AdminDashboard from "./pages/AdminDashboard";
+
 import ManageUsers from "./pages/ManageUsers";
 import ManageDonations from "./pages/dashboard/ManageDonations";
 import AdminProfile from "./pages/dashboard/AdminProfile";

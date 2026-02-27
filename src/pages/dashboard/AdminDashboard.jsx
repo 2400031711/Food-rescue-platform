@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import "./dashboard/admin.css";
+import "./Admin.css";
+
 function AdminDashboard() {
   const loggedUser = JSON.parse(localStorage.getItem("loggedUser")) || {};
 
